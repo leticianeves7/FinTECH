@@ -1,0 +1,290 @@
+.tela-login,
+.tela-login * {
+    box-sizing: border-box;
+}
+
+.tela-login {
+    background: #ffffff;
+    width: 1450px;
+    height: 732px;
+    position: relative;
+}
+
+.fundo {
+    background: #b3c9af;
+    border-radius: 0px 0px 45px 0px;
+    width: 1450px;
+    height: 188px;
+    position: absolute;
+    left: calc(50% - 725px);
+    top: calc(50% - 366px);
+}
+
+.image-50 {
+    border-radius: 65.5px;
+    width: 148px;
+    height: 139px;
+    position: absolute;
+    left: calc(50% - -531px);
+    top: calc(50% - 272px);
+}
+
+.input-cpf {
+    background: #5d7b5f;
+    border-radius: 15px;
+    padding: 15px 13px 8px 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 318px;
+    height: 45px;
+    position: absolute;
+    left: 566px;
+    top: 277px;
+    overflow: hidden;
+}
+
+.cpf {
+    color: #ffffff;
+    text-align: center;
+    font: 700 15px "Open Sans", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-cpf input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font: 400 15px "Open Sans", sans-serif;
+    outline: none;
+}
+
+/* Classes do Bootstrap */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.input-senha {
+    background: #5d7b5f;
+    border-radius: 15px;
+    padding: 15px 11px 9px 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 318px;
+    height: 48px;
+    position: absolute;
+    left: 566px;
+    top: 359px;
+    overflow: hidden;
+}
+
+.senha {
+    color: #ffffff;
+    text-align: center;
+    font: 700 15px "Open Sans", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-senha input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font: 400 15px "Open Sans", sans-serif;
+    outline: none;
+}
+
+.input-entrar {
+    background: #5d7b5f;
+    border-radius: 15px;
+    padding: 8px 13px 8px 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    left: 570px;
+    top: 430px;
+    overflow: hidden;
+}
+
+.entrar {
+    color: #ffffff;
+    text-align: center;
+    font: 700 15px "Open Sans", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-cancelar {
+    border: 2px solid #5d7b5f;
+    border-radius: 15px;
+    padding: 8px 13px 8px 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    left: 740px;
+    top: 430px;
+    overflow: hidden;
+}
+
+.cancelar {
+    color: #5d7b5f;
+    text-align: center;
+    font: 700 15px "Open Sans", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-entrar input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font: 400 15px "Open Sans", sans-serif;
+    outline: none;
+}
+
+.divisor {
+    border-style: solid;
+    border-color: #b3c9af;
+    border-width: 2px 0 0 0;
+    width: 380px;
+    height: 0px;
+    position: absolute;
+    left: 545px;
+    top: 510px;
+    transform-origin: 0 0;
+    transform: rotate(0.192deg) scale(1, 1);
+}
+
+.ou {
+    color: #000000;
+    text-align: center;
+    font: 700 12px "Open Sans", sans-serif;
+    position: absolute;
+    left: 679px;
+    top: 490px;
+    width: 69px;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-crie-sua-conta {
+    width: 305px;
+    height: 40px;
+    position: absolute;
+    left: 595px;
+    top: 515px;
+    overflow: hidden;
+}
+
+.crie-sua-conta {
+    color: #000000;
+    text-align: center;
+    font: 700 20px "Open Sans", sans-serif;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 249px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-google {
+    width: 43px;
+    height: 45px;
+    position: absolute;
+    left: 691px;
+    top: 570px;
+}
+
+.image-48 {
+    width: 43px;
+    height: 45px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.botao-apple {
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    left: 584px;
+    top: 562px;
+}
+
+.image-49 {
+    width: 95px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: -7px;
+}
+
+.botao-email {
+    width: 48px;
+    height: 49px;
+    position: absolute;
+    left: 781px;
+    top: 567px;
+}
+
+.botao-email2 {
+    width:48px;
+    height: 49px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+

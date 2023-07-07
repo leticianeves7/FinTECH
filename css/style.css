@@ -1,0 +1,129 @@
+.tela-inicial,
+.tela-inicial * {
+    box-sizing: border-box;
+    }
+.tela-inicial {
+    background: #ffffff;
+    width: 1280px;
+    height: 832px;
+    position: relative;
+    overflow: auto;
+    }
+.botao-acessar {
+    background: #5d7b5f;
+    border-radius: 5px;
+    padding: 20px 92px 20px 92px;
+    position: absolute;
+    right: 339px;
+    left: 498px;
+    bottom: 461px;
+    top: 334px;
+    }
+.acessar {
+    color: #ffffff;
+    text-align: center;
+    font: 700 24px "Open Sans", sans-serif;
+    position: absolute;
+    left: 165.67px;
+    top: calc(50% - 5.99px);
+    width: 111.65px;
+    height: 12.39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.divisor {
+    border-style: solid;
+    border-color: #b3c9af;
+    border-width: 2px 0 0 0;
+    position: absolute;
+    right: 293px;
+    left: 471px;
+    bottom: 548.6px;
+    top: 283.403076171875px;
+    transform-origin: 0 0;
+    transform: rotate(0.177deg) scale(1, 1);
+    }
+.ou {
+    color: #b3c9af;
+    text-align: center;
+    font: 700 16px "Open Sans", sans-serif;
+    position: absolute;
+    right: 514px;
+    left: 678px;
+    bottom: 428px;
+    top: 393px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.botao-google {
+    position: absolute;
+    right: 527px;
+    left: 706px;
+    bottom: 292px;
+    top: 492px;
+    }
+.image-48 {
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    }
+    .botao-apple {
+    position: absolute;
+    right: 660px;
+    left: 570px;
+    bottom: 292px;
+    top: 485px;
+    }
+    .image-49 {
+    width: 100px;
+    height: 76px;
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    }
+    .botao-email {
+    position: absolute;
+    right: 408px;
+    left: 821px;
+    bottom: 290px;
+    top: 491px;
+    }
+    .botao-email2 {
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    }
+    .acesse-com {
+    color: #b3c9af;
+    text-align: center;
+    font: 700 24px "Open Sans", sans-serif;
+    position: absolute;
+    right: 483px;
+    left: 652px;
+    bottom: 393px;
+    top: 417px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .logo-techfinance {
+    position: absolute;
+    right: 387px;
+    left: 546px;
+    bottom: 614px;
+    top: 77px;
+    }
+    .logotechfin {
+    width: 347px;
+    height: 141px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
